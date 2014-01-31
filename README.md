@@ -2,8 +2,8 @@
 
 
 selendroid-extension shows how selendroid can be extended easily via execute_script functionality.
-The idea is that user can implement a specific interface e.g. `io.selendroid.extension.SelendroidScriptExtension` that will be invoked
-via execute script. 
+The idea is that user can implement a specific interface e.g. `io.selendroid.server.model.SelendroidScriptExtension` that will be invoked
+via execute script and the classes, provided by the end customer, are loaded dynamically at runtime. 
 
 ## Changes in selendroid-server
 

@@ -14,17 +14,17 @@
 package io.selendroid.extension;
 
 import io.selendroid.ServerInstrumentation;
+import io.selendroid.server.model.SelendroidScriptExtension;
 
 /**
- * A sample extension that can be used e.g. for execute script.
+ * A sample extension that can be invoked via execute script.
  * 
  * @author ddary
  * 
  */
 public class MyDemoExtension implements SelendroidScriptExtension {
   /**
-   * This could be an endpoint we offer the selendroid users that they can invoke via execute
-   * script. They have the full power of the Android Instrumentation library.
+   * return the current class name of the activity.
    * 
    * @param instrumentation
    * @param args
