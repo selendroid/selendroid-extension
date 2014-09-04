@@ -7,7 +7,7 @@
 	<name>extension</name>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<selendroid.version>0.8.0-SNAPSHOT</selendroid.version>
+		<selendroid.version>0.12.0-SNAPSHOT</selendroid.version>
 		<com.google.android.android-version>4.1.1.4</com.google.android.android-version>
 	</properties>
 	<dependencies>
