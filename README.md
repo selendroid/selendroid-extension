@@ -10,6 +10,7 @@ In my example I created the class `io.selendroid.extension.MyDemoExtension` and 
 
 ## Run the demo with Java
 
+```java
   package io.selendroid.extension;
    
   import io.selendroid.support.BaseAndroidExtensionTest;
@@ -27,4 +28,4 @@ In my example I created the class `io.selendroid.extension.MyDemoExtension` and 
         driver().callExtension("io.selendroid.extension.DemoExtensionHandler"));
     }
   }
-
+```
